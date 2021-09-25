@@ -1,6 +1,3 @@
-## 3rd place solution of Kaggle MLB Player Digital Engagement Forecasting
-This repository is a part of 3rd place solution of [MLB Player Digital Engagement Forecasting Competition](https://www.kaggle.com/c/mlb-player-digital-engagement-forecasting).
-
-You can see my solution overview from [here](https://www.kaggle.com/c/mlb-player-digital-engagement-forecasting/discussion/256620).
-
-If you are interested in reproducing the results, check out the steps [here](entry_points.md).
+##  MLB Player Digital Engagement Forecasting 复盘和总结
+1 比赛使用的策略是单模特征 通过复盘改进为不同模型提取不同特征的方式，在预测阶段使用ensemble的方式进行输出。
+2 改进的代码使用了1DCNN进行特征抽取
